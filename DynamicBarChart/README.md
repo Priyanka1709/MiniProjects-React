@@ -8,8 +8,8 @@ This project is a simple, dynamic bar chart visualization built with React.
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-repo/BarCharts.git
-cd BarCharts
+git clone https://github.com/Priyanka1709/MiniProjects-React.git
+cd MiniProjects-React/DynamicBarChart
 npm install
 ```
 
@@ -36,4 +36,3 @@ This project uses the following dependencies:
 - `react`: ^18.0.0
 - `react-dom`: ^18.0.0
 - `react-scripts`: ^5.0.0
-

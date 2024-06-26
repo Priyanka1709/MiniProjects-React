@@ -20,11 +20,17 @@ export default function App() {
   const [data, setData] = useState([]);
   const [originalData, setOriginalData] = useState([]);
   useEffect(() => {
-    async () => {
-      const response = await getData();
-      setData(response);
-      setOriginalData(response);
+    const fetchData = async () => {
+      try {
+        const response = await getData();
+        setData(response);
+        setOriginalData(response);
+      } catch (e) {
+        console.error("Error fetch data:", error);
+      }
     };
+
+    fetchData();
   }, []);
 
   const getHighestTicketCount = useMemo(() => {
