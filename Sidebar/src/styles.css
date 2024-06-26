@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none; /* This removes the bullet points from unordered lists */
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: navy;
+  text-decoration: underline;
+}
+.active a {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.circle-icon {
+  font-size: 5px;
+  color: "black";
+  width: 16px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
