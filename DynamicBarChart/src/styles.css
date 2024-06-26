@@ -1,0 +1,17 @@
+.bar {
+  width: 50px;
+}
+
+.bar-container {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+  border: 1px solid black;
+  height: 200px;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+#sort {
+  margin-bottom: 10px;
+}
